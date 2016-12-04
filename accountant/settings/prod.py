@@ -36,7 +36,7 @@ INSTALLED_APPS = INSTALLED_APPS + (
 # Security
 
 ALLOWED_HOSTS = (
-    '.herokuapp.com','192.168.1.150',  # Prefer an url with no subdomain authorized
+    '.herokuapp.com','192.168.1.150','192.168.1.200',  # Prefer an url with no subdomain authorized
 )
 
 SITE_MAIN_DOMAIN = environ.get('SITE_MAIN_DOMAIN', '')

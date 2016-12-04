@@ -28,6 +28,9 @@ DEBUG_TOOLBAR_CONFIG = {
     'JQUERY_URL': '',
 }
 
+ALLOWED_HOSTS = (
+    '.herokuapp.com','192.168.1.150','192.168.1.200',  # Prefer an url with no subdomain authorized
+)
 
 # Emailing
 
